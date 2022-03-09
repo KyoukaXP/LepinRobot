@@ -13,7 +13,7 @@ from pyrogram.types import ChatPermissions, InlineKeyboardButton, InlineKeyboard
 from SkyzuRobot import DRAGONS as SUDO_USERS
 from SkyzuRobot import pbot
 from SkyzuRobot.modules.sql import forceSubscribe_sql as sql
-
+from SkyzuRobot.modules.language import gs
 logging.basicConfig(level=logging.INFO)
 
 static_data_filter = filters.create(
