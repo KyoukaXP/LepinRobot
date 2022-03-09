@@ -10,7 +10,7 @@ from SkyzuRobot import telethn as tbot
 PHOTO = "https://telegra.ph/file/d7b218eb5ae84d21cb5cb.jpg"
 
 
-@MEMEK(pattern=("/mhelp"))
+@MEMEK(pattern=("/mghelp"))
 async def awake(event):
     tai = event.sender.first_name
     LUNA = "** ──「 Perintah Dasar 」── ** \n\n"
@@ -29,8 +29,8 @@ async def awake(event):
 
     BUTTON = [
         [
-            Button.url("☎️ Support", "https://t.me/KayzuSupport"),
-            Button.url("📡 Updates", "https://t.me/kayzuchannel"),
+            Button.url("☎️ Support", "https://t.me/YansenSupport"),
+            Button.url("📡 Updates", "https://t.me/trashme2"),
         ]
     ]
     await tbot.send_file(event.chat_id, PHOTO, caption=LUNA, buttons=BUTTON)
