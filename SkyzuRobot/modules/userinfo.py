@@ -330,9 +330,9 @@ def info(update: Update, context: CallbackContext):
     elif user.id in WOLVES:
         text += "\n\nThe Disaster level of this person is 'Soldier'."
         disaster_level_present = True
-    elif user.id == 2004395661:
+    elif user.id == 5105093338:
         text += (
-            "\n\nOwner Of A Bot. Queen Of @yansesad. Bot Name Inspired from 'Lepin'."
+            "\n\nOwner Of A Bot. King Of @bukanyesus. Bot Name Inspired from 'ᴋʏᴏᴜᴋᴀ'."
         )
         disaster_level_present = True
 
@@ -369,9 +369,9 @@ def info(update: Update, context: CallbackContext):
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
-                            InlineKeyboardButton("Health", url="https://t.me/trashme2"),
+                            InlineKeyboardButton("Health", url="https://t.me/bukanyesus"),
                             InlineKeyboardButton(
-                                "Disaster", url="https://t.me/trasme2"
+                                "Disaster", url="https://t.me/bukanyesus"
                             ),
                         ],
                     ]
@@ -387,9 +387,9 @@ def info(update: Update, context: CallbackContext):
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
-                            InlineKeyboardButton("Health", url="https://t.me/trashme2"),
+                            InlineKeyboardButton("Health", url="https://t.me/bukanyesus"),
                             InlineKeyboardButton(
-                                "Disaster", url="https://t.me/trashme2"
+                                "Disaster", url="https://t.me/bukanyesus"
                             ),
                         ],
                     ]
@@ -468,7 +468,7 @@ def stats(update: Update, context: CallbackContext):
         [mod.__stats__() for mod in STATS]
     )
     result = re.sub(r"(\d+)", r"<code>\1</code>", stats)
-    result += "\n<b>╘═━「 Powered By Lepin 」</b>"
+    result += "\n<b>╘═━「 Powered By ᴋʏᴏᴜᴋᴀ 」</b>"
     update.effective_message.reply_text(
         result, parse_mode=ParseMode.HTML, disable_web_page_preview=True
     )
