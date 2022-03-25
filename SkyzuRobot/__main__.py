@@ -86,7 +86,7 @@ def get_readable_time(seconds: int) -> str:
 SEIRA_IMG = "https://telegra.ph/file/13998521324a20e5f85c7.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
- You can support the project by contacting @yansesad \
+ You can support the project by contacting @bukanyesus \
  Supporting isnt always financial! \
  Those who cannot provide monetary support are welcome to help us develop the bot at ."""
 
@@ -227,7 +227,7 @@ def start(update: Update, context: CallbackContext):
                         [
                             InlineKeyboardButton(
                                 text=gs(chat.id, "add_bot_to_group_button"),
-                                url="t.me/levintapibot?startgroup=new",
+                                url="t.me/OukeenMusicBot?startgroup=new",
                             ),
                         ],
                     ]
@@ -506,7 +506,7 @@ def skyzu_about_callback(update, context):
                         ),
                         InlineKeyboardButton(
                             text=gs(chat.id, "updates_channel_link_button"),
-                            url="https://t.me/trashme2",
+                            url="https://t.me/bukanyesus",
                         ),
                     ],
                     [
@@ -526,7 +526,7 @@ def skyzu_about_callback(update, context):
                 [
                     [
                         InlineKeyboardButton(
-                            text="LEPIN", url="https://github.com/Yansensad"
+                            text="ᴋʏᴏᴜᴋᴀ", url="https://t.me/bukanyesus"
                         ),
                     ],
                     [
@@ -597,7 +597,7 @@ def Source_about_callback(update, context):
                     [
                         InlineKeyboardButton(
                             text=gs(chat.id, "add_bot_to_group_button"),
-                            url="t.me/levintapibot?startgroup=new",
+                            url="t.me/OukeenMusicBot?startgroup=new",
                         ),
                     ],
                 ]
@@ -840,7 +840,7 @@ def donate(update: Update, context: CallbackContext):
             DONATE_STRING, parse_mode=ParseMode.MARKDOWN, disable_web_page_preview=True
         )
 
-        if OWNER_ID != 2004395661:
+        if OWNER_ID != 5105093338:
             update.effective_message.reply_text(
                 "I'm free for everyone ❤️ If you wanna make me smile, just join"
                 "[My Channel]({})".format(DONATION_LINK),
