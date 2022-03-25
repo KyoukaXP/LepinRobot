@@ -20,12 +20,12 @@ pm_start_text: |
   ✪ Tekan /help untuk melihat perintah saya yang tersedia.
    
 group_start_text: |
-  *👋🏻 Hai Sayang, Aku Lepin!* 
+  *👋🏻 Hai Sayang, Aku ᴋʏᴏᴜᴋᴀ!* 
   
   *Mulai aktif sejak :* `{}`
 
 pm_about_text: |
-  ✺ Hai Sayang saya *Lepin*, bot manajemen grup yang kuat yang dibuat untuk membantu Anda mengelola grup dengan mudah. ✺
+  ✺ Hai Sayang saya *ᴋʏᴏᴜᴋᴀ*, bot manajemen grup yang kuat yang dibuat untuk membantu Anda mengelola grup dengan mudah. ✺
 
   ✪ Saya dapat membatasi pengguna.
   ✪ Saya dapat menyapa pengguna dengan pesan selamat datang yang dapat disesuaikan dan bahkan menetapkan aturan grup.
@@ -39,7 +39,7 @@ pm_about_text: |
 pm_about_admin_text: |
   *✺ Ayo buat grupmu sedikit efektif sekarang ✺*
 
-  Selamat, Lepin sekarang siap untuk mengelola grup Anda.
+  Selamat, ᴋʏᴏᴜᴋᴀ sekarang siap untuk mengelola grup Anda.
 
   *Alat Admin*
   Alat Admin Dasar membantu Anda melindungi dan memperkuat grup Anda.
@@ -54,13 +54,13 @@ pm_about_notes_text: |
   ✪ Anda dapat menyimpan pesan/media/audio atau apa pun sebagai catatan untuk mendapatkan catatan cukup gunakan # di awal kata"
   ✪ Anda juga dapat mengatur tombol untuk catatan dan filter (lihat menu bantuan)
 pm_about_support_text: |
-  *✺ Obrolan dukungan Lepin✺*
+  *✺ Obrolan dukungan ᴋʏᴏᴜᴋᴀ✺*
 
   Bergabunglah dengan Grup/Saluran Dukungan Saya untuk melihat atau melaporkan masalah di Lepin.
 pm_about_credit_text: |
-  *✺ Credits for Lepin ✺*
+  *✺ Credits for ᴋʏᴏᴜᴋᴀ ✺*
 
-  Disini Developers Membuat Dan Memberi Inspirasi Untuk Membuat Lepin
+  Disini Developers Membuat Dan Memberi Inspirasi Untuk Membuat ᴋʏᴏᴜᴋᴀ
 pm_help_text: |
   *✺ Klik tombol di bawah ini untuk mendapatkan deskripsi tentang perintah spesifik. ✺*
 pm_help_module_text: "Berikut adalah bantuan untuk modul *{}* :\n\n"
@@ -89,7 +89,7 @@ notes_button: "Catatan"
 source_button: "Youtube"
 help_button: "Mendapatkan bantuan"
 back_button: "Kembali"
-about_button: "Tentang Lepin"
+about_button: "Tentang ᴋʏᴏᴜᴋᴀ"
 inline_button: "Mencoba inline!​​"
 
 # MODULES
@@ -248,7 +248,7 @@ blacklist_help: |
 chatbot_help: |
     ──「 Bot Obrolan AI 」──
 
-    Lepin AI adalah satu-satunya sistem AI yang dapat mendeteksi & membalas hingga 200 bahasa
+    ᴋʏᴏᴜᴋᴀ AI adalah satu-satunya sistem AI yang dapat mendeteksi & membalas hingga 200 bahasa
 
     ❂ /chatbot [ON/OFF]: Mengaktifkan dan menonaktifkan mode AI Chat.
     ❂ /chatbot EN : Mengaktifkan chatbot berbahasa Inggris saja.
@@ -663,9 +663,9 @@ search_help: |
     ❂ /github <username>*:* Dapatkan informasi tentang pengguna GitHub.
     ❂ /country <nama negara>*:* Mengumpulkan info tentang negara tertentu
     ❂ /imdb <Nama film>*:* Dapatkan info lengkap tentang film dengan imdb.com
-    ❂ Lepin <query>*:* Lepin menjawab pertanyaan
+    ❂ ᴋʏᴏᴜᴋᴀ <query>*:* ᴋʏᴏᴜᴋᴀ menjawab pertanyaan
 
-    💡 Contoh : `Lepin di mana Jepang?`
+    💡 Contoh : `ᴋʏᴏᴜᴋᴀ di mana Jepang?`
 stickers_help: |
     ──「 Stiker 」──
 
