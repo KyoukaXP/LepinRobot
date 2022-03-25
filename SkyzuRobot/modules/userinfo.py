@@ -369,7 +369,9 @@ def info(update: Update, context: CallbackContext):
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
-                            InlineKeyboardButton("Health", url="https://t.me/bukanyesus"),
+                            InlineKeyboardButton(
+                                "Health", url="https://t.me/bukanyesus"
+                            ),
                             InlineKeyboardButton(
                                 "Disaster", url="https://t.me/bukanyesus"
                             ),
@@ -387,7 +389,9 @@ def info(update: Update, context: CallbackContext):
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
-                            InlineKeyboardButton("Health", url="https://t.me/bukanyesus"),
+                            InlineKeyboardButton(
+                                "Health", url="https://t.me/bukanyesus"
+                            ),
                             InlineKeyboardButton(
                                 "Disaster", url="https://t.me/bukanyesus"
                             ),
