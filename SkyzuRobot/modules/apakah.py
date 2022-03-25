@@ -26,7 +26,14 @@ async def apakah(event):
     await event.reply(random.choice(APAKAH_STRING))
 
 
-@register(pattern="^lepin ?(.*)")
+@register(pattern="^bot ?(.*)")
+async def apakah(event):
+    quew = event.pattern_match.group(1)
+    if not quew:
+        await event.reply("Apa Sayang")
+        return
+
+@register(pattern="^Bot ?(.*)")
 async def apakah(event):
     quew = event.pattern_match.group(1)
     if not quew:
