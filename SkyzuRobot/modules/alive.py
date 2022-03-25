@@ -14,16 +14,16 @@ PHOTO = "https://telegra.ph/file/13998521324a20e5f85c7.jpg"
 
 @register(pattern=("/alive"))
 async def awake(event):
-    TEXT = f"**Hi [{event.sender.first_name}](tg://user?id={event.sender.id}), I'm Lepin.** \n\n"
+    TEXT = f"**Hi [{event.sender.first_name}](tg://user?id={event.sender.id}), I'm ᴋʏᴏᴜᴋᴀ.** \n\n"
     TEXT += "♤ **I'm Working Properly** \n\n"
-    TEXT += f"♤ **My Master : [Lepin](https://t.me/yansesad)** \n\n"
+    TEXT += f"♤ **My Master : [ᴋʏᴏᴜᴋᴀ](https://t.me/bukanyesus)** \n\n"
     TEXT += f"♤ **Library Version :** `{telever}` \n\n"
     TEXT += f"♤ **Telethon Version :** `{tlhver}` \n\n"
     TEXT += f"♤ **Pyrogram Version :** `{pyrover}` \n\n"
     TEXT += "**Thanks For Adding Me Here ❤️**"
     BUTTON = [
         [
-            Button.url("ʜᴇʟᴘ​", "https://t.me/levintapibot?start=help"),
+            Button.url("ʜᴇʟᴘ​", "https://t.me/OukeenMusicBot?start=help"),
             Button.url("sᴜᴘᴘᴏʀᴛ​", "https://t.me/YansenSupport"),
         ]
     ]
