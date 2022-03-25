@@ -27,9 +27,9 @@ async def carbon_func(_, message):
 @pbot.on_message(filters.command("repo"))
 async def repo(_, message):
     await message.reply_text(
-        f"""⍟ **Hey I'm Lepin** 
+        f"""⍟ **Hey I'm ᴋʏᴏᴜᴋᴀ** 
 
-**Owner repo : [Lepin](https://t.me/lepinex)**
+**Owner repo : [ᴋʏᴏᴜᴋᴀ](https://t.me/bukanyesus)**
 **Python Version :** `{y()}`
 **Library Version :** `{o}`
 **Telethon Version :** `{s}`
@@ -40,8 +40,8 @@ async def repo(_, message):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("Channel", url="https://t.me/trashme2"),
-                    InlineKeyboardButton("Support", url="https://t.me/YansenSupport"),
+                    InlineKeyboardButton("Channel", url="https://t.me/bukanyesus"),
+                    InlineKeyboardButton("Support", url="https://t.me/bukanyesus"),
                 ]
             ]
         ),
